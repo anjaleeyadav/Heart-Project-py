@@ -18,9 +18,6 @@ for i in range(6000):
     goto(hearta(i) * 20, heartb(i) * 20)
     for j in range(1):
         color("red")
-        # linewidth=(30)
-        # t=turtle.Turtle()
-        # t.write("hello",color="red",align="center",font=("Courier",16,"bold",))
     dot()
 goto(0,0)
 done()
